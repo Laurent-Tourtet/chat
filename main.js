@@ -13,7 +13,7 @@ function sendMessage() {
 
     let deleteButton = document.createElement('button');
     deleteButton.classList.add('delete-button');
-    deleteButton.textContent = 'Supprimer';
+    deleteButton.textContent = 'X';
     deleteButton.onclick = function(e) {
         e.target.parentNode.remove();
         updateLocalStorage(messages);
@@ -32,5 +32,8 @@ function resetMessages() {
     let messages = document.getElementById('chat-messages');
     messages.innerHTML = '';
     updateLocalStorage(messages);
+}
+function Connect(users) {
+    
 }
 

@@ -54,7 +54,7 @@ body{
    height: 6%;
 }
 #reset-button {
-    
+     
     width: 30%;
     height: 100%;
 }
@@ -65,11 +65,11 @@ body{
     align-items: center;
 }
 .delete-button{
-    all:unset;
+    /* all:unset; */
     cursor: pointer;
     color: red;
     font-size: 14px;
-    margin-left: 220px;
+    margin-left: 300px;
     text-transform: uppercase;
     text-shadow: 0 0 1px #000;
 }
